@@ -1,0 +1,101 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    font-family: "Georgia", serif;
+}
+
+.heading{
+    min-height: 30vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background: url(https://i.pinimg.com/enabled_lo_mid/736x/7e/0c/10/7e0c10ab921ca9ac72b9df1f6d0e2abe.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.heading h3{
+    font-size: 2rem;
+    color: gray;
+}
+
+.about .flex{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+ 
+.about .flex .image{
+    flex: 1 1 40rem;
+}
+ 
+.about .flex .image img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15%;
+}
+ 
+.about .flex .content{
+    flex: 1 1 40rem;
+    text-align: center;
+    max-width: 1000px;
+}
+ 
+.about .flex .content p{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.about .content .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    border-radius: .5rem;
+    text-transform: capitalize;
+}
+
+/*nav-bar-about*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar nav ul li {
+    display: inline;
+}
+
+.user-profile {
+    font-size: 0.9em;
+    color: gray;
+}
