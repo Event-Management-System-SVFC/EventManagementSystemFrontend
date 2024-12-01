@@ -1,0 +1,43 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    font-family: "Georgia", serif;
+}
+
+.home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://i.pinimg.com/736x/3b/0c/5e/3b0c5e2fd2f518943696c0c35bf0b8cd.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+ 
+.home .content p{
+    font-size: 1.8rem;
+    color: white;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content .btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding: 1rem 3rem;
+   cursor: pointer;
+   background-color: blue;
+   color: white;
+   font-size: 1rem;
+   border-radius: .5rem;
+   text-transform: capitalize;
+}
