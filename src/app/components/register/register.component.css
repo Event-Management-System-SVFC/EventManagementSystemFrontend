@@ -70,7 +70,6 @@ body {
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 15px;
-    transition: background 0.3s;
   }
   
   button:hover {

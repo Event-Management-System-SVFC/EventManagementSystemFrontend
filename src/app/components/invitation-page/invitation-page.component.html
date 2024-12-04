@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation for guest</title>
+    <link rel="stylesheet" href="invitation-page.component.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+
+      
+        <form >
+            <h2>Registration Form</h2>
+            
+         
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+     
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+          
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+            
+       
+            <label for="gender">Gender:</label>
+            <select class="Gender" id="gender" name="gender" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            
+      
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            
+    
+            <button type="submit">Register</button>
+          </form>
+        </div>
+    </div>
+</body>
+</html>
