@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    pad: 0;
+    padding: 0;
 }
 body{
     font-family: Arial, sans-serif;
@@ -11,17 +11,63 @@ body{
     width: 100%;
     height: 100%;
     padding: 20px;
-    background-color: linear-gradient(rgba(248, 228, 228, 0.7), #a88787b3), url(https://i.pinimg.com/736x/2d/c4/27/2dc427ffc2e5b51c5649f2965ceedc26.jpg) no-repeat;;
 }
-.task-manager{
-    display: flex;
-    justify-content: center;
+
+  
+  header {
+    background-color: #0073e6;
+    color: white;
     width: 100%;
-    max-width: 1500px;
-    height: 100%;
-    max-height: 1200px;
-    background-color: #a88787b3;
-    border: 4px;
-    box-shadow: 1px solid #c9c2c2e0;
-    overflow: hidden;
-}
+   align-items: center;
+   justify-content: center;
+   display: flex;
+    padding: 20px 10px;
+   
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .agenda {
+    padding: 20px;
+  }
+  
+  .agenda-item {
+    display: flex;
+    margin-bottom: 15px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time {
+    font-weight: bold;
+    margin-right: 15px;
+    color: #0073e6;
+  }
+  
+  .details h2 {
+    margin: 0 0 5px;
+    color: #222;
+  }
+  
+  .details p {
+    margin: 2px 0;
+  }
+  .btn{
+    width: 20%;
+    height: 50px;
+    font-size: 1.0rem;
+    height:18%;
+    padding: 10px 20px;
+    background: #0EA5E9;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+   justify-content: space-between;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
