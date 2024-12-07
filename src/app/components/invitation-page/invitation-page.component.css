@@ -10,6 +10,8 @@ body{
     background-position: center;
     display: flex;
     align-items: center;
+    text-align: left;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     justify-content: center;
     font-family: monospace;
 }
@@ -24,9 +26,25 @@ body{
     position: relative;
   }
 
-  .form-container{
-    display: flex;
-    transition: transform 0.5s;
+  .form-container label {
+    display: block;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+  }
+
+  .form-container input,
+  .form-container select,
+  .form-container button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
   }
   label {
     color: #575555;
@@ -72,6 +90,14 @@ body{
     border-radius: 16px;
     align-items: center;
     cursor: pointer;
+    
+  }
+
+  button:hover{
+    background-color: #e26565f5;
+    color: #18181B;
+    font-size: 1.2rem;
+    height:8%;
     
   }
 

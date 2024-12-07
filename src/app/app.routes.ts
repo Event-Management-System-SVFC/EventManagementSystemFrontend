@@ -8,6 +8,7 @@ import { UserloginComponent } from './components/userlogin/userlogin.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ForgotpassComponent } from './components/forgotpass/forgotpass.component';
 import { InvitationPageComponent } from './components/invitation-page/invitation-page.component';
+import { AgendasComponent } from './components/agendas/agendas.component';
 
 
 
@@ -16,6 +17,7 @@ export const routes: Routes = [{ path: 'about', component: AboutComponent },
     { path: 'dashboard', component: DashboardComponent}, { path: 'eventlist', component: EventlistComponent},
     { path: 'userlogin', component:UserloginComponent },  { path: 'register', component:RegisterComponent },
     { path: 'forgotpass', component:ForgotpassComponent }, { path:'invitation-page', component:InvitationPageComponent},
-
+    { path: 'agendas', component:AgendasComponent }, 
+        
 
 ];
